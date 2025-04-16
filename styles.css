@@ -172,7 +172,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 2rem 0; /* добавили отступ сверху на фоне #EEEFF1 */
+  padding: 2rem 0;
 }
 .how__container {
   width: 100%;
@@ -309,7 +309,6 @@
 }
 
 @media (max-width: 900px) {
-  /* оставляем общий паддинг для hero, how и footer */
   .hero,
   .how,
   .footer {
@@ -317,11 +316,9 @@
     padding: 1rem 0;
   }
 
-  /* для .about — убираем нижний (и/или верхний) padding */
   .about {
     padding-top: 0;
     padding-bottom: 0;
-    /* остальной код */
     min-height: 100vh;
     margin-bottom: 0;
   }
